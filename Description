@@ -1,0 +1,22 @@
+Simple Image Encryption Tool
+This project is a basic image encryption and decryption tool that uses pixel manipulation techniques. 
+It allows users to encrypt and decrypt images by modifying pixel values using a user-specified key.
+This project was developed in PyCharm Communitiy Edition
+
+Features
+Image Encryption: Swaps and alters pixel values using a key to create an encrypted image.
+Image Decryption: Reverses the encryption process to recover the original image.
+User-Friendly Interface: Uses a file dialog for easy selection of image files.
+Supports Multiple Formats: Compatible with common image formats like PNG, JPG, and JPEG.
+
+How It Works
+Encryption: The tool modifies the pixel values of the image based on a key, swapping adjacent pixels and altering their RGB values.
+Decryption: The original image is restored by reversing the encryption process using the same key.
+
+Usage
+Select an image file to encrypt or decrypt using the provided file dialog.
+Enter an integer key for the encryption or decryption process.
+The processed image is saved in the same directory as the original.
+
+Notes
+The same key must be used for both encryption and decryption to retrieve the original image.
